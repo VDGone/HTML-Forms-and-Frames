@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title>
+</head>
+<body>
+    <form>
+        <table cellspacing="0" border="1" bordercolor="gray" class="form">
+            <tr>
+                <th><lable for="lname">Last Name</lable></th>
+                <td><input id="lname" type="text" style="margin-right: 15px;" size="25" /></td>
+            </tr>
+            <tr>
+                <th><lable for="fname">First Name</lable></th>
+                <td><input id="fname" type="text" style="margin-right: 15px;" size="25" /></td>
+            </tr>
+            <tr>
+                <th><lable for="address">Address</lable></th>
+                <td><textarea name="address" rows="4" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="city">City</label></th>
+                <td>
+                    <input id="city" type="text" size="10" />
+                    <label for="state">State</label>
+                    <input id="state" type="text" size="7" />
+                </td>
+            </tr>
+            <tr>
+                <th><label for="zip">Zip/Post Code</label></th>
+                <td>
+                    <input id="zip" type="text" size="5" />
+                </td>
+            </tr>
+            <tr>
+                <th><label for="country">Country</label></th>
+                <td>
+                    <select>
+                        <option>Albania</option>
+                        <option>Andorra</option>
+                        <option>Armenia</option>
+                        <option>Austria</option>
+                        <option>Azerbaijan</option>
+                        <option>Belarus</option>
+                        <option>Belgium</option>
+                        <option>Bosnia and Herzegovina</option>
+                        <option selected>Bulgaria</option>
+                        <option>Croatia</option>
+                        <option>Cyprus</option>
+                        <option>Czech Republic</option>
+                        <option>Denmark</option>
+                        <option>Estonia</option>
+                        <option>Finland</option>
+                        <option>France</option>
+                        <option>Georgia</option>
+                        <option>Germany</option>
+                        <option>Greece</option>
+                        <option>Hungary</option>
+                        <option>Iceland</option>
+                        <option>Ireland</option>
+                        <option>Italy</option>
+                        <option>Kazakhstan</option>
+                        <option>Latvia</option>
+                        <option>Other...</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="phone">Phone(country code, <br />area code, number )</label></th>
+                <td>
+                    (+<input type="text" name="numbers" size="3" />)
+                    <input type="text" name="numbers" size="3">
+                    <input type="text" name="numbers" size="5">
+                </td>
+            </tr>
+            <tr>
+                <th><label for="email">E-mail</label></th>
+                <td><input input type="email" size="25" /></td>
+            </tr>
+            <tr>
+                <th><label for="bdate">Birth date</label></th>
+                <td><input type="date" /></td>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender</label></th>
+                <td>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="sdate">Starting date</label></th>
+                <td>
+                    <input type="radio" name="sd" value="Spring 2015" id="sd1" /><label for="sd1">Spring 2015</label>
+                    <input type="radio" name="sd" value="Summer 2015" id="sd2" /><label for="sd2">Summer 2015</label>
+                </td>
+            </tr>
+            <tr>
+                <th><lable for="comments">Comments/Questions</lable></th>
+                <td><textarea name="address" rows="6" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="background-color:lightblue">
+                    <button type='submit'>Submit</button>
+                    <button type='reset'>Clean This Form</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
